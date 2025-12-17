@@ -1,0 +1,46 @@
+# Credentials - JANGAN PERNAH COMMIT!
+credential.json
+credentials.json
+secrets.toml
+.streamlit/secrets.toml
+
+# Backup files with credentials
+backupds.py
+backuptableveiew.py
+dashboard_backup_*.py
+dashboard_backup_*.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Patch scripts (temporary)
+patch_*.py
+optimize_*.py
+fix_*.py
+update_*.py
+enable_*.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3

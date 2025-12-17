@@ -1,0 +1,266 @@
+{
+    "unit_icons": {
+        "GHT": {
+            "image": "ght.png",
+            "name": "Grader Hauler Truck",
+            "description": "Heavy equipment for grading and hauling"
+        },
+        "EX": {
+            "image": "exzx350.png",
+            "name": "Excavator",
+            "description": "Heavy excavation equipment"
+        },
+        "EX SMP 46": {
+            "image": "PC200.png",
+            "name": "Komatsu",
+            "description": "Komatsu PC200"
+        },
+        "GMT": {
+            "image": "GMT.png",
+            "name": "Dump Truck",
+            "description": "Heavy haul dump truck"
+        },
+        "WA": {
+            "image": "WA600.png",
+            "name": "Wheel Loader",
+            "description": "Front loader equipment"
+        },
+        "EX KAI 036": {
+            "image": "PC400.png",
+            "name": "Komatsu",
+            "description": "Komatsu PC200"
+        },
+        "EX KAI 035": {
+            "image": "PC400.png",
+            "name": "Komatsu",
+            "description": "Komatsu PC200"
+        },
+        "EX KAI 024": {
+            "image": "PC400.png",
+            "name": "Komatsu",
+            "description": "Komatsu PC200"
+        },
+        "EX KAI 032": {
+            "image": "PC400.png",
+            "name": "Komatsu",
+            "description": "Komatsu PC200"
+        },
+        "EX KAI 839": {
+            "image": "PC400.png",
+            "name": "Komatsu",
+            "description": "Komatsu PC200"
+        },
+        "EX GPE 837": {
+            "image": "PC400.png",
+            "name": "Komatsu",
+            "description": "Komatsu PC200"
+        },
+        "EX KAI 908": {
+            "image": "PC400.png",
+            "name": "Komatsu",
+            "description": "Komatsu PC200"
+        },
+        "EX GPE 908": {
+            "image": "PC400.png",
+            "name": "Komatsu",
+            "description": "Komatsu PC200"
+        },
+        "EX KAI 037": {
+            "image": "PC400.png",
+            "name": "Komatsu",
+            "description": "Komatsu PC200"
+        },
+        "EX GPE 916": {
+            "image": "PC400.png",
+            "name": "Komatsu",
+            "description": "Komatsu PC200"
+        },
+        "EX GPE 68": {
+            "image": "PC400.png",
+            "name": "Komatsu",
+            "description": "Komatsu PC200"
+        },
+        "EX GPE 867": {
+            "image": "PC400.png",
+            "name": "Komatsu",
+            "description": "Komatsu PC200"
+        },
+        "EX KAI 026": {
+            "image": "PC400.png",
+            "name": "Komatsu",
+            "description": "Komatsu PC200"
+        },
+        "EX GPE 918": {
+            "image": "PC400.png",
+            "name": "Komatsu",
+            "description": "Komatsu PC200"
+        },
+        "EX GPE 851": {
+            "image": "PC400.png",
+            "name": "Komatsu",
+            "description": "Komatsu PC200"
+        },
+        "EX KAI 36": {
+            "image": "PC400.png",
+            "name": "Komatsu",
+            "description": "Komatsu PC200"
+        },
+        "EX SMP 78": {
+            "image": "exzx350.png",
+            "name": "hitachi",
+            "description": "zx350"
+        },
+        "EX SMP 81": {
+            "image": "exzx350.png",
+            "name": "hitachi",
+            "description": "zx350"
+        },
+        "EX SMP 37": {
+            "image": "exzx350.png",
+            "name": "hitachi",
+            "description": "zx350"
+        },
+        "EX SMP 32": {
+            "image": "exzx350.png",
+            "name": "hitachi",
+            "description": "zx350"
+        },
+        "EX SMP 35": {
+            "image": "exzx350.png",
+            "name": "hitachi",
+            "description": "zx350"
+        },
+        "EX SMP 73": {
+            "image": "zx470.png",
+            "name": "hitachi    ",
+            "description": "zx470"
+        },
+        "EX SMP 68": {
+            "image": "zx470.png",
+            "name": "hitachi    ",
+            "description": "zx470"
+        },
+        "EX SMP 69": {
+            "image": "zx470.png",
+            "name": "hitachi    ",
+            "description": "zx470"
+        },
+        "EX SMP 51": {
+            "image": "zx470.png",
+            "name": "hitachi    ",
+            "description": "zx470"
+        },
+        "EX SMP 77": {
+            "image": "zx470.png",
+            "name": "hitachi    ",
+            "description": "zx470"
+        },
+        "EX SMP 908": {
+            "image": "zx470.png",
+            "name": "hitachi    ",
+            "description": "zx470"
+        },
+        "EX SMP 916": {
+            "image": "zx470.png",
+            "name": "hitachi    ",
+            "description": "zx470"
+        },
+        "EX SMP 72": {
+            "image": "zx470.png",
+            "name": "hitachi    ",
+            "description": "zx470"
+        },
+        "EX SMP 52": {
+            "image": "zx470.png",
+            "name": "hitachi    ",
+            "description": "zx470"
+        },
+        "EX SMP 36": {
+            "image": "zx470.png",
+            "name": "hitachi    ",
+            "description": "zx470"
+        },
+        "EX SMP 42": {
+            "image": "zx470.png",
+            "name": "hitachi    ",
+            "description": "zx470"
+        },
+        "EX SMP 49": {
+            "image": "zx470.png",
+            "name": "hitachi    ",
+            "description": "zx470"
+        },
+        "EX SMP 66": {
+            "image": "zx470.png",
+            "name": "hitachi    ",
+            "description": "zx470"
+        },
+        "EX SMP 38": {
+            "image": "zx470.png",
+            "name": "hitachi    ",
+            "description": "zx470"
+        },
+        "EX SMP 61": {
+            "image": "zx470.png",
+            "name": "hitachi    ",
+            "description": "zx470"
+        },
+        "EX SMP 91": {
+            "image": "zx490.png",
+            "name": "hitachi    ",
+            "description": "zx490"
+        },
+        "GHT 741": {
+            "image": "GMT.png",
+            "name": "hitachi",
+            "description": "SYZ448C-9(R)"
+        },
+        "GHT 742": {
+            "image": "GMT.png",
+            "name": "hitachi",
+            "description": "SYZ448C-9(R)"
+        },
+        "GHT 743": {
+            "image": "GMT.png",
+            "name": "hitachi",
+            "description": "SYZ448C-9(R)"
+        },
+        "GHT 744": {
+            "image": "GMT.png",
+            "name": "hitachi",
+            "description": "SYZ448C-9(R)"
+        },
+        "GHT 745": {
+            "image": "GMT.png",
+            "name": "hitachi",
+            "description": "SYZ448C-9(R)"
+        },
+        "GHT 746": {
+            "image": "GMT.png",
+            "name": "hitachi",
+            "description": "SYZ448C-9(R)"
+        },
+        "GHT 747": {
+            "image": "GMT.png",
+            "name": "hitachi",
+            "description": "SYZ448C-9(R)"
+        },
+        "GHT 748": {
+            "image": "GMT.png",
+            "name": "hitachi",
+            "description": "SYZ448C-9(R)"
+        },
+        "GHT 749": {
+            "image": "GMT.png",
+            "name": "hitachi",
+            "description": "SYZ448C-9(R)"
+        },
+        "GHT 750": {
+            "image": "GMT.png",
+            "name": "hitachi",
+            "description": "SYZ448C-9(R)"
+        }
+    },
+    "default_icon": "default.png",
+    "fallback_emoji": "🚗"
+}
