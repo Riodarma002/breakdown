@@ -854,7 +854,7 @@ ICONS = {
 # ========================================
 # GOOGLE SHEETS CONNECTION
 # ========================================
-@st.cache_resource(ttl=120)
+@st.cache_resource(ttl=300)  # 5 minutes - aligned with auto-refresh
 def connect_to_gsheet():
     try:
         credentials_dict = dict(st.secrets["gcp_service_account"])
@@ -871,7 +871,7 @@ def connect_to_gsheet():
         st.error(f"Connection Error: {str(e)}")
         raise e
 
-@st.cache_data(ttl=60, show_spinner=False)
+@st.cache_data(ttl=300, show_spinner=False)  # 5 minutes - aligned with auto-refresh
 def load_data():
     """Load data from Google Sheets with retry logic"""
     max_retries = 3
