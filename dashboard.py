@@ -720,7 +720,7 @@ components.html("""
 <script>
 (function() {
     // AUTO-REFRESH - Smart reload yang preserve query params (page state)
-    var autoRefreshInterval = 60000; // 60 seconds
+    var autoRefreshInterval = 300000; // 300 seconds (5 minutes)
     
     function smartRefresh() {
         try {
