@@ -720,7 +720,7 @@ components.html("""
 <script>
 (function() {
     // AUTO-REFRESH - Smart reload yang preserve query params (page state)
-    var autoRefreshInterval = 300000; // 300 seconds (5 minutes)
+    var autoRefreshInterval = 3600000; // 3600 seconds (1 hour)
     
     function smartRefresh() {
         try {
@@ -854,7 +854,7 @@ ICONS = {
 # ========================================
 # GOOGLE SHEETS CONNECTION
 # ========================================
-@st.cache_resource(ttl=300)  # 5 minutes - aligned with auto-refresh
+@st.cache_resource(ttl=3600)  # 1 hour - aligned with auto-refresh
 def connect_to_gsheet():
     try:
         credentials_dict = dict(st.secrets["gcp_service_account"])
@@ -871,7 +871,7 @@ def connect_to_gsheet():
         st.error(f"Connection Error: {str(e)}")
         raise e
 
-@st.cache_data(ttl=300, show_spinner=False)  # 5 minutes - aligned with auto-refresh
+@st.cache_data(ttl=3600, show_spinner=False)  # 1 hour - aligned with auto-refresh
 def load_data():
     """Load data from Google Sheets with retry logic"""
     max_retries = 3
@@ -1242,10 +1242,17 @@ def main():
     
     # PAGE CONTENT
     if current_page == 'Overview':
-        # Both sections use table view now
-        col1, col2 = st.columns(2)
+        # Filter Overview to show today's data only
+        today = datetime.now(TIMEZONE).date()
+        
+        # Breakdown (Open): show all active breakdowns
         open_df = filtered_df[filtered_df['current_status'] == 'Open']
+        
+        # Ready: show only units that finished today
         ready_df = filtered_df[filtered_df['current_status'] == 'Ready']
+        ready_df = ready_df[ready_df['end_date'].dt.date == today]
+        
+        col1, col2 = st.columns(2)
         with col1:
             st.markdown(f'<div class="section-header"><span class="section-indicator red"></span><span class="section-title">Current Breakdown</span><span class="section-count">{len(open_df)}</span></div>', unsafe_allow_html=True)
             render_breakdown_table(open_df, get_unit_icon_html)
